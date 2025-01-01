@@ -21,7 +21,7 @@ const Hero = () => {
               <span className="inline-block rounded-full bg-indigo-600 px-3 py-1 text-white">
                 News
               </span>
-              <p className="flex items-center">
+              <p className="flex items-center dark:text-white">
                 Read the blogs post from here
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +37,10 @@ const Hero = () => {
                 </svg>
               </p>
             </a>
-            <h1 className="text-4xl font-extrabold text-gray-800 sm:text-5xl">
+            <h1 className="text-4xl font-extrabold text-gray-800 dark:text-white sm:text-5xl">
               Discover what Dream Byte can do for your business
             </h1>
-            <p>
+            <p className="dark:text-white">
               Digital experiences delivered as apps, workflows, and automations
               require powerful cloud native infrastructure to do the heavy
               lifting. You can now focus on your business requirements while we
@@ -48,7 +48,9 @@ const Hero = () => {
             </p>
             <div className="flex items-center gap-x-3 sm:text-sm">
               <a
-                href="javascript:void(0)"
+                href="https://calendly.com/r-lavan-lavanjan"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center gap-x-1 rounded-full bg-gray-800 px-4 py-2 font-medium text-white duration-150 hover:bg-gray-700 active:bg-gray-900 md:inline-flex"
               >
                 Schedule Meeting

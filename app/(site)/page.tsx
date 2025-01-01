@@ -14,7 +14,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Dream-byte",
+  title: "Dream Byte",
   description: "dream-byte",
   // other metadata
 };
